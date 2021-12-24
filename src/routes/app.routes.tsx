@@ -12,11 +12,11 @@ export function AppRoutes() {
   return (
     <Navigator
       screenOptions={{
-        headerShown: false
+        headerShown: false 
       }}
     >
       <Screen name="Home" component={Home} />
       <Screen name="RegisterLoginData" component={RegisterLoginData} />
-    </Navigator>
+    </Navigator> 
   );
-}
+} 
